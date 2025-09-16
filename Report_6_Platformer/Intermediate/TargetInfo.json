@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Report_6_Platformer",
+			"Path": "..\\Source\\Report_6_Platformer.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Report_6_PlatformerEditor",
+			"Path": "..\\Source\\Report_6_PlatformerEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

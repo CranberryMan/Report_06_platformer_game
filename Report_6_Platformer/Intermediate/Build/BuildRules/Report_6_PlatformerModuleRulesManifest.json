@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Unreal_Project\\Report_6_Platformer\\Source\\Report_6_Platformer\\Report_6_Platformer.Build.cs",
+		"C:\\Unreal_Project\\Report_6_Platformer\\Source\\Report_6_Platformer.Target.cs",
+		"C:\\Unreal_Project\\Report_6_Platformer\\Source\\Report_6_PlatformerEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}

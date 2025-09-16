@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Report_6_Platformer.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Report_6_Platformer.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Report_6_PlatformerEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Report_6_Platformer">
+      <UniqueIdentifier>{23BAF64D-E168-318A-9320-6EEFA3C376B1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Report_6_Platformer\Report_6_Platformer.Build.cs">
+      <Filter>Source\Report_6_Platformer</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Report_6_Platformer.cpp">
+      <Filter>Source\Report_6_Platformer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Report_6_Platformer.h">
+      <Filter>Source\Report_6_Platformer</Filter>
+    </ClCompile>
+    <Filter Include="Source\Report_6_Platformer\Private">
+      <UniqueIdentifier>{EC5BBFA8-6E20-3E55-B25F-5CC3564B584F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Private\FootSwitch.cpp">
+      <Filter>Source\Report_6_Platformer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Private\NewLevelTransferVolume.cpp">
+      <Filter>Source\Report_6_Platformer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Private\NewMoveStageWidget.cpp">
+      <Filter>Source\Report_6_Platformer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Private\NewMovingPlatform.cpp">
+      <Filter>Source\Report_6_Platformer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Private\NewMyGameInstance.cpp">
+      <Filter>Source\Report_6_Platformer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Private\NewMyMainGameMode.cpp">
+      <Filter>Source\Report_6_Platformer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Private\StageGuide.cpp">
+      <Filter>Source\Report_6_Platformer\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Report_6_Platformer\Public">
+      <UniqueIdentifier>{125E217D-B129-370F-9FD6-BB702A8CB583}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Public\FootSwitch.h">
+      <Filter>Source\Report_6_Platformer\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Public\NewLevelTransferVolume.h">
+      <Filter>Source\Report_6_Platformer\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Public\NewMoveStageWidget.h">
+      <Filter>Source\Report_6_Platformer\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Public\NewMovingPlatform.h">
+      <Filter>Source\Report_6_Platformer\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Public\NewMyGameInstance.h">
+      <Filter>Source\Report_6_Platformer\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Public\NewMyMainGameMode.h">
+      <Filter>Source\Report_6_Platformer\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Public\StageGuide.h">
+      <Filter>Source\Report_6_Platformer\Public</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
