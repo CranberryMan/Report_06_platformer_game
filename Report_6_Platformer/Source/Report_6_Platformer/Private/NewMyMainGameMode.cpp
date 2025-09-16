@@ -32,7 +32,12 @@ void ANewMyMainGameMode::BeginPlay()
 void ANewMyMainGameMode::SetNowStage(int32 NewStage)
 {
     FString StageName;
-    if (NewStage <= 0)
+	
+    FString as = GetWorld()->GetCurrentLevel()->GetOuter()->GetFName().ToString();
+    UE_LOG(LogTemp, Warning, TEXT("Current Level Name: %s"), *as);
+
+    /// 레벨 이름이 mainLevel 이면 WELCOME
+    if (as == "mainLevel")
     {
         StageName = FString::Printf(TEXT("WELCOME"));
     }

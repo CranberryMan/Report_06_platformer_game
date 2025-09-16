@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define REPORT_6_PLATFORMER_NewMoveStageWidget_generated_h
 
-#define FID_Unreal_Project_Report_6_Platformer_Source_Report_6_Platformer_Public_NewMoveStageWidget_h_13_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_Project_git_Report_06_Report_6_Platformer_Source_Report_6_Platformer_Public_NewMoveStageWidget_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUNewMoveStageWidget(); \
 	friend struct Z_Construct_UClass_UNewMoveStageWidget_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(UNewMoveStageWidget)
 
 
-#define FID_Unreal_Project_Report_6_Platformer_Source_Report_6_Platformer_Public_NewMoveStageWidget_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_Project_git_Report_06_Report_6_Platformer_Source_Report_6_Platformer_Public_NewMoveStageWidget_h_13_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UNewMoveStageWidget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -37,12 +37,12 @@ public: \
 	NO_API virtual ~UNewMoveStageWidget();
 
 
-#define FID_Unreal_Project_Report_6_Platformer_Source_Report_6_Platformer_Public_NewMoveStageWidget_h_10_PROLOG
-#define FID_Unreal_Project_Report_6_Platformer_Source_Report_6_Platformer_Public_NewMoveStageWidget_h_13_GENERATED_BODY \
+#define FID_Unreal_Project_git_Report_06_Report_6_Platformer_Source_Report_6_Platformer_Public_NewMoveStageWidget_h_10_PROLOG
+#define FID_Unreal_Project_git_Report_06_Report_6_Platformer_Source_Report_6_Platformer_Public_NewMoveStageWidget_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Unreal_Project_Report_6_Platformer_Source_Report_6_Platformer_Public_NewMoveStageWidget_h_13_INCLASS_NO_PURE_DECLS \
-	FID_Unreal_Project_Report_6_Platformer_Source_Report_6_Platformer_Public_NewMoveStageWidget_h_13_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_Project_git_Report_06_Report_6_Platformer_Source_Report_6_Platformer_Public_NewMoveStageWidget_h_13_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_Project_git_Report_06_Report_6_Platformer_Source_Report_6_Platformer_Public_NewMoveStageWidget_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -50,7 +50,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> REPORT_6_PLATFORMER_API UClass* StaticClass<class UNewMoveStageWidget>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Unreal_Project_Report_6_Platformer_Source_Report_6_Platformer_Public_NewMoveStageWidget_h
+#define CURRENT_FILE_ID FID_Unreal_Project_git_Report_06_Report_6_Platformer_Source_Report_6_Platformer_Public_NewMoveStageWidget_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -25,5 +25,5 @@ public:
 
 protected:
     UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Game Data")
-    int32 CurrentStage = 0;
+    int32 CurrentStage = 1;
 };
