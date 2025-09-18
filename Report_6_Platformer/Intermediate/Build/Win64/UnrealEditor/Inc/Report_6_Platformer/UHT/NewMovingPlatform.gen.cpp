@@ -63,11 +63,17 @@ struct Z_Construct_UClass_ANewMovingPlatform_Statics
 		{ "ToolTip", "\xef\xbf\xbd\xe2\xba\xbb\xef\xbf\xbd\xef\xbf\xbd 3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xcc\xb5\xef\xbf\xbd" },
 #endif
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bIsRandom_MetaData[] = {
+		{ "Category", "Platform Settings" },
+		{ "ModuleRelativePath", "Public/NewMovingPlatform.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_StaticMeshComponent;
 	static const UECodeGen_Private::FStructPropertyParams NewProp_MoveDirection;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_MaxMoveDistance;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_MoveSpeed;
+	static void NewProp_bIsRandom_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_bIsRandom;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -79,11 +85,17 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANewMovingPlat
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ANewMovingPlatform_Statics::NewProp_MoveDirection = { "MoveDirection", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ANewMovingPlatform, MoveDirection), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MoveDirection_MetaData), NewProp_MoveDirection_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANewMovingPlatform_Statics::NewProp_MaxMoveDistance = { "MaxMoveDistance", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ANewMovingPlatform, MaxMoveDistance), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaxMoveDistance_MetaData), NewProp_MaxMoveDistance_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANewMovingPlatform_Statics::NewProp_MoveSpeed = { "MoveSpeed", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ANewMovingPlatform, MoveSpeed), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MoveSpeed_MetaData), NewProp_MoveSpeed_MetaData) };
+void Z_Construct_UClass_ANewMovingPlatform_Statics::NewProp_bIsRandom_SetBit(void* Obj)
+{
+	((ANewMovingPlatform*)Obj)->bIsRandom = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ANewMovingPlatform_Statics::NewProp_bIsRandom = { "bIsRandom", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(ANewMovingPlatform), &Z_Construct_UClass_ANewMovingPlatform_Statics::NewProp_bIsRandom_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bIsRandom_MetaData), NewProp_bIsRandom_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANewMovingPlatform_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewMovingPlatform_Statics::NewProp_StaticMeshComponent,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewMovingPlatform_Statics::NewProp_MoveDirection,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewMovingPlatform_Statics::NewProp_MaxMoveDistance,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewMovingPlatform_Statics::NewProp_MoveSpeed,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewMovingPlatform_Statics::NewProp_bIsRandom,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ANewMovingPlatform_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_ANewMovingPlatform_Statics::DependentSingletons[])() = {
@@ -126,10 +138,10 @@ ANewMovingPlatform::~ANewMovingPlatform() {}
 struct Z_CompiledInDeferFile_FID_Unreal_Project_git_Report_06_Report_6_Platformer_Source_Report_6_Platformer_Public_NewMovingPlatform_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ANewMovingPlatform, ANewMovingPlatform::StaticClass, TEXT("ANewMovingPlatform"), &Z_Registration_Info_UClass_ANewMovingPlatform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ANewMovingPlatform), 3848536836U) },
+		{ Z_Construct_UClass_ANewMovingPlatform, ANewMovingPlatform::StaticClass, TEXT("ANewMovingPlatform"), &Z_Registration_Info_UClass_ANewMovingPlatform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ANewMovingPlatform), 2666029137U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Project_git_Report_06_Report_6_Platformer_Source_Report_6_Platformer_Public_NewMovingPlatform_h_4291230415(TEXT("/Script/Report_6_Platformer"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Project_git_Report_06_Report_6_Platformer_Source_Report_6_Platformer_Public_NewMovingPlatform_h_1459753274(TEXT("/Script/Report_6_Platformer"),
 	Z_CompiledInDeferFile_FID_Unreal_Project_git_Report_06_Report_6_Platformer_Source_Report_6_Platformer_Public_NewMovingPlatform_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Project_git_Report_06_Report_6_Platformer_Source_Report_6_Platformer_Public_NewMovingPlatform_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

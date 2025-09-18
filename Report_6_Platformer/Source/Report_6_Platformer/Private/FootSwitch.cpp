@@ -31,14 +31,11 @@ void AFootSwitch::BeginPlay()
     OriginalLocation = GetActorLocation();
     TargetLocation = OriginalLocation - FVector(0.f, 0.f, MaxMoveDistance);
 
-    // 특정 오브젝트 보이게 하기
-    if (TargetActor)
+    // 특정 오브젝트 일단 안보이게하기
+    if (TargetActorToShow)
     {
-        // SetActorHiddenInGame(false)는 액터를 보이게 만듭니다.
-        TargetActor->SetActorHiddenInGame(true);
-
-        // SetActorEnableCollision(true)는 충돌을 활성화합니다.
-        TargetActor->SetActorEnableCollision(false);
+        TargetActorToShow->SetActorHiddenInGame(true);
+        TargetActorToShow->SetActorEnableCollision(false);
     }
 }
 
@@ -73,13 +70,26 @@ void AFootSwitch::NotifyActorBeginOverlap(AActor* OtherActor)
         }
 
         // 특정 오브젝트 보이게 하기
-        if (TargetActor)
+        if (TargetActorToShow)
         {
             // SetActorHiddenInGame(false)는 액터를 보이게 만듭니다.
-            TargetActor->SetActorHiddenInGame(false);
+            TargetActorToShow->SetActorHiddenInGame(false);
 
             // SetActorEnableCollision(true)는 충돌을 활성화합니다.
-            TargetActor->SetActorEnableCollision(true);
+            TargetActorToShow->SetActorEnableCollision(true);
+        }
+
+        if (TargetActorToDelete)
+        {
+            TargetActorToDelete->Destroy(); // 그냥 편하게 삭제하는걸로
+        }
+        if (TargetActorToDelete1)
+        {
+            TargetActorToDelete1->Destroy(); // 그냥 편하게 삭제하는걸로
+        }
+        if (TargetActorToDelete2)
+        {
+            TargetActorToDelete2->Destroy(); // 그냥 편하게 삭제하는걸로
         }
     }
 }

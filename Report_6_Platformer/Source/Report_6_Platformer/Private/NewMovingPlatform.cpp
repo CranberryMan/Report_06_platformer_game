@@ -19,6 +19,12 @@ void ANewMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
 	StartLocation = GetActorLocation();
+	if (bIsRandom)
+	{
+		this->AddActorLocalRotation(FRotator(0.f, 90.f, 0.f), false, nullptr, ETeleportType::None);
+		this->MaxMoveDistance = FMath::RandRange(500.f, 1000.f);
+		this->MoveSpeed = FMath::RandRange(100.f, 500.f);
+	}
 
 }
 

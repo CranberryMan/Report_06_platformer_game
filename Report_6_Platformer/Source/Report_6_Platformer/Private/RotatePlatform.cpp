@@ -25,6 +25,9 @@ void ARotatePlatform::BeginPlay()
 void ARotatePlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	SetActorRotation(GetActorRotation() + RotateDirection * MoveSpeed * DeltaTime);
+	// SetActorRotation(GetActorRotation() + RotateDirection * MoveSpeed * DeltaTime);
+
+	// 과제에서 AddActorLocalRotation 사용하라고 해서 이거로 변경
+	this->AddActorLocalRotation(RotateDirection * MoveSpeed * DeltaTime, false, nullptr, ETeleportType::None);
 }
 

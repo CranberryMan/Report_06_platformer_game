@@ -45,6 +45,9 @@
     <ClCompile Include="..\..\Source\Report_6_Platformer\Private\FootSwitch.cpp">
       <Filter>Source\Report_6_Platformer\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Private\FootSwitch_RandomOpen.cpp">
+      <Filter>Source\Report_6_Platformer\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Report_6_Platformer\Private\NewLevelTransferVolume.cpp">
       <Filter>Source\Report_6_Platformer\Private</Filter>
     </ClCompile>
@@ -60,16 +63,31 @@
     <ClCompile Include="..\..\Source\Report_6_Platformer\Private\NewMyMainGameMode.cpp">
       <Filter>Source\Report_6_Platformer\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Private\RandomLeftRight.cpp">
+      <Filter>Source\Report_6_Platformer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Private\Random_Platform_Spawner.cpp">
+      <Filter>Source\Report_6_Platformer\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Report_6_Platformer\Private\RotatePlatform.cpp">
       <Filter>Source\Report_6_Platformer\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Report_6_Platformer\Private\StageGuide.cpp">
       <Filter>Source\Report_6_Platformer\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Private\TrapSphere.cpp">
+      <Filter>Source\Report_6_Platformer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Private\worldEndWall.cpp">
+      <Filter>Source\Report_6_Platformer\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\Report_6_Platformer\Public">
       <UniqueIdentifier>{125E217D-B129-370F-9FD6-BB702A8CB583}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Report_6_Platformer\Public\FootSwitch.h">
+      <Filter>Source\Report_6_Platformer\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Public\FootSwitch_RandomOpen.h">
       <Filter>Source\Report_6_Platformer\Public</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Report_6_Platformer\Public\NewLevelTransferVolume.h">
@@ -87,10 +105,22 @@
     <ClCompile Include="..\..\Source\Report_6_Platformer\Public\NewMyMainGameMode.h">
       <Filter>Source\Report_6_Platformer\Public</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Public\RandomLeftRight.h">
+      <Filter>Source\Report_6_Platformer\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Public\Random_Platform_Spawner.h">
+      <Filter>Source\Report_6_Platformer\Public</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Report_6_Platformer\Public\RotatePlatform.h">
       <Filter>Source\Report_6_Platformer\Public</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Report_6_Platformer\Public\StageGuide.h">
+      <Filter>Source\Report_6_Platformer\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Public\TrapSphere.h">
+      <Filter>Source\Report_6_Platformer\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Public\worldEndWall.h">
       <Filter>Source\Report_6_Platformer\Public</Filter>
     </ClCompile>
   </ItemGroup>

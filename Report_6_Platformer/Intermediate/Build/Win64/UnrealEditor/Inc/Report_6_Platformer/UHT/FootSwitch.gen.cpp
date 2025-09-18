@@ -88,7 +88,7 @@ struct Z_Construct_UClass_AFootSwitch_Statics
 		{ "Category", "Movement" },
 		{ "ModuleRelativePath", "Public/FootSwitch.h" },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TargetActor_MetaData[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TargetActorToShow_MetaData[] = {
 		{ "Category", "Movement" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd Show\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xd9\xb8\xef\xbf\xbd Actor\n" },
@@ -97,6 +97,24 @@ struct Z_Construct_UClass_AFootSwitch_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd Show\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xd9\xb8\xef\xbf\xbd Actor" },
 #endif
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TargetActorToDelete_MetaData[] = {
+		{ "Category", "Movement" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd Delete\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xd9\xb8\xef\xbf\xbd Actor\n/// \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xcd\xb0\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xc3\xbe\xee\xb3\xad\xef\xbf\xbd\xef\xbf\xbd... \xc3\xb3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd TArray\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xdf\xbe\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xcf\xb3\xef\xbf\xbd???\n" },
+#endif
+		{ "ModuleRelativePath", "Public/FootSwitch.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd Delete\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xd9\xb8\xef\xbf\xbd Actor\n\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xcd\xb0\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xc3\xbe\xee\xb3\xad\xef\xbf\xbd\xef\xbf\xbd... \xc3\xb3\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd TArray\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xdf\xbe\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xcf\xb3\xef\xbf\xbd???" },
+#endif
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TargetActorToDelete1_MetaData[] = {
+		{ "Category", "Movement" },
+		{ "ModuleRelativePath", "Public/FootSwitch.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TargetActorToDelete2_MetaData[] = {
+		{ "Category", "Movement" },
+		{ "ModuleRelativePath", "Public/FootSwitch.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FClassPropertyParams NewProp_myCharacter;
@@ -108,7 +126,10 @@ struct Z_Construct_UClass_AFootSwitch_Statics
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_MaxMoveDistance;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_OnFootstepSound;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_OffFootstepSound;
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_TargetActor;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_TargetActorToShow;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_TargetActorToDelete;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_TargetActorToDelete1;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_TargetActorToDelete2;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -128,7 +149,10 @@ const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFootSwitch_Sta
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFootSwitch_Statics::NewProp_MaxMoveDistance = { "MaxMoveDistance", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFootSwitch, MaxMoveDistance), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaxMoveDistance_MetaData), NewProp_MaxMoveDistance_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFootSwitch_Statics::NewProp_OnFootstepSound = { "OnFootstepSound", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFootSwitch, OnFootstepSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnFootstepSound_MetaData), NewProp_OnFootstepSound_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFootSwitch_Statics::NewProp_OffFootstepSound = { "OffFootstepSound", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFootSwitch, OffFootstepSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OffFootstepSound_MetaData), NewProp_OffFootstepSound_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFootSwitch_Statics::NewProp_TargetActor = { "TargetActor", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFootSwitch, TargetActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TargetActor_MetaData), NewProp_TargetActor_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFootSwitch_Statics::NewProp_TargetActorToShow = { "TargetActorToShow", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFootSwitch, TargetActorToShow), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TargetActorToShow_MetaData), NewProp_TargetActorToShow_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFootSwitch_Statics::NewProp_TargetActorToDelete = { "TargetActorToDelete", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFootSwitch, TargetActorToDelete), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TargetActorToDelete_MetaData), NewProp_TargetActorToDelete_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFootSwitch_Statics::NewProp_TargetActorToDelete1 = { "TargetActorToDelete1", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFootSwitch, TargetActorToDelete1), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TargetActorToDelete1_MetaData), NewProp_TargetActorToDelete1_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFootSwitch_Statics::NewProp_TargetActorToDelete2 = { "TargetActorToDelete2", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFootSwitch, TargetActorToDelete2), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TargetActorToDelete2_MetaData), NewProp_TargetActorToDelete2_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFootSwitch_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFootSwitch_Statics::NewProp_myCharacter,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFootSwitch_Statics::NewProp_StaticMeshComponent,
@@ -138,7 +162,10 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFootSwit
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFootSwitch_Statics::NewProp_MaxMoveDistance,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFootSwitch_Statics::NewProp_OnFootstepSound,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFootSwitch_Statics::NewProp_OffFootstepSound,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFootSwitch_Statics::NewProp_TargetActor,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFootSwitch_Statics::NewProp_TargetActorToShow,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFootSwitch_Statics::NewProp_TargetActorToDelete,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFootSwitch_Statics::NewProp_TargetActorToDelete1,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFootSwitch_Statics::NewProp_TargetActorToDelete2,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AFootSwitch_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AFootSwitch_Statics::DependentSingletons[])() = {
@@ -181,10 +208,10 @@ AFootSwitch::~AFootSwitch() {}
 struct Z_CompiledInDeferFile_FID_Unreal_Project_git_Report_06_Report_6_Platformer_Source_Report_6_Platformer_Public_FootSwitch_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AFootSwitch, AFootSwitch::StaticClass, TEXT("AFootSwitch"), &Z_Registration_Info_UClass_AFootSwitch, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFootSwitch), 2345131083U) },
+		{ Z_Construct_UClass_AFootSwitch, AFootSwitch::StaticClass, TEXT("AFootSwitch"), &Z_Registration_Info_UClass_AFootSwitch, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFootSwitch), 937149712U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Project_git_Report_06_Report_6_Platformer_Source_Report_6_Platformer_Public_FootSwitch_h_1613607951(TEXT("/Script/Report_6_Platformer"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Project_git_Report_06_Report_6_Platformer_Source_Report_6_Platformer_Public_FootSwitch_h_273819269(TEXT("/Script/Report_6_Platformer"),
 	Z_CompiledInDeferFile_FID_Unreal_Project_git_Report_06_Report_6_Platformer_Source_Report_6_Platformer_Public_FootSwitch_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Project_git_Report_06_Report_6_Platformer_Source_Report_6_Platformer_Public_FootSwitch_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

@@ -35,6 +35,8 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Platform Settings")
 	float MoveSpeed = 50.f;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Platform Settings")
+	bool bIsRandom = true;
 
 	FVector StartLocation;
 };

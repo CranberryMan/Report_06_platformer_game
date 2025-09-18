@@ -64,5 +64,18 @@ protected:
 
 	// 발판 밟으면 Show할 다른 Actor
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
-	AActor* TargetActor;
+	AActor* TargetActorToShow;
+
+	// 발판 밟으면 Delete할 다른 Actor
+	/// 만들다 보니 삭제할 액터가 점점 늘어난다... 처음부터 TArray로 했어야 하나???
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
+	AActor* TargetActorToDelete;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
+	AActor* TargetActorToDelete1;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
+	AActor* TargetActorToDelete2;
+
+	
 };
