@@ -75,6 +75,12 @@
     <ClCompile Include="..\..\Source\Report_6_Platformer\Private\StageGuide.cpp">
       <Filter>Source\Report_6_Platformer\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Private\StartGameMode.cpp">
+      <Filter>Source\Report_6_Platformer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Private\StartUI.cpp">
+      <Filter>Source\Report_6_Platformer\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Report_6_Platformer\Private\TrapSphere.cpp">
       <Filter>Source\Report_6_Platformer\Private</Filter>
     </ClCompile>
@@ -115,6 +121,12 @@
       <Filter>Source\Report_6_Platformer\Public</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Report_6_Platformer\Public\StageGuide.h">
+      <Filter>Source\Report_6_Platformer\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Public\StartGameMode.h">
+      <Filter>Source\Report_6_Platformer\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Report_6_Platformer\Public\StartUI.h">
       <Filter>Source\Report_6_Platformer\Public</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Report_6_Platformer\Public\TrapSphere.h">
